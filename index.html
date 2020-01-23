@@ -60,6 +60,21 @@
             height: 200px;
             width: 200px;
         }
+
+        #portfolio>div {
+            width: 250px;
+            height: 250px;
+            border: 2px solid red;
+        }
+
+        #portfolio>div+div {
+            margin-top: 20px;
+            border: 2px solid green;
+        }
+
+        #portfolio>div:nth-last-child(1) {
+            border: 2px solid darkblue;
+        }
     </style>
 </head>
 
